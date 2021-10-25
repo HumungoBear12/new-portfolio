@@ -180,7 +180,7 @@ input[type=button] {
 /* lightest grey - used for outlines */
 /* Other Colors used */
 body {
-  background-image: url("http://images.unsplash.com/photo-1546443046-ed1ce6ffd1ab?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+  background-color: black;
 }
 
 /* dark shades of primary color*/
@@ -192,4 +192,32 @@ body {
 /* darkest grey - used for headings */
 /* grey used for paragraphs */
 /* lightest grey - used for outlines */
-/* Other Colors used *//*# sourceMappingURL=index.css.map */
+/* Other Colors used */
+.banner {
+  width: 100%;
+  height: 45rem;
+}
+
+.nav {
+  position: absolute;
+  top: 0rem;
+  width: 100%;
+  height: 5rem;
+  background-color: transparent;
+  display: flex;
+}
+
+.listItem {
+  color: white;
+}
+
+.list {
+  margin-left: auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navHead {
+  color: white;
+}/*# sourceMappingURL=index.css.map */
