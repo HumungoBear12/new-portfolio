@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const Navbar = () => {
     return (
         <div className='nav'>
-            <h1 className='navHead'>Lorem, ipsum dolor.</h1>
+            <h1 className='navHead'>Andrew Makris Portfolio</h1>
             <ul className='list'>
                 {Links
               .filter((link) => link.text !== "Error")
