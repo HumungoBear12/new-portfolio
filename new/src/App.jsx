@@ -2,7 +2,8 @@ import React from 'react'
 import './styles/index.css'
 import Home from './Pages/Home'
 import Banner from './Components/Banner'
-import Navbar from './Components/Navbar' 
+import Navbar from './Components/Navbar'
+import Footer from './Components/Footer' 
 import {
   Switch,
   Route,
@@ -28,6 +29,7 @@ const App = () => {
                 );
             })}
         </Switch>
+            <Footer/>
         </div>
     )
 }

@@ -23,15 +23,13 @@ summary {
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 img,
@@ -53,7 +51,6 @@ blockquote,
 q {
   quotes: none;
 }
-
 blockquote::before, blockquote::after,
 q::before,
 q::after {
@@ -102,19 +99,19 @@ pre {
   word-wrap: break-word;
 }
 
-input [type="radio"] {
+input [type=radio] {
   vertical-align: text-bottom;
 }
 
-input [type="checkbox"] {
+input [type=checkbox] {
   vertical-align: bottom;
 }
 
-.ie7 input [type="checkbox"] {
+.ie7 input [type=checkbox] {
   vertical-align: baseline;
 }
 
-.ie6 input[type="checkbox"] {
+.ie6 input[type=checkbox] {
   vertical-align: text-bottom;
 }
 
@@ -149,15 +146,15 @@ sub {
 
 .clickable,
 label,
-input[type="button"],
-input[type="submit"],
-input[type="file"],
+input[type=button],
+input[type=submit],
+input[type=file],
 button {
   cursor: pointer;
 }
 
 button,
-input[type="button"] {
+input[type=button] {
   width: auto;
   overflow: hidden;
 }
@@ -183,7 +180,7 @@ input[type="button"] {
 /* lightest grey - used for outlines */
 /* Other Colors used */
 body {
-  background-color: black;
+  background-color: #9c9c9c;
 }
 
 a {
@@ -203,8 +200,89 @@ a {
 .headSecOne {
   margin-top: 2rem;
   text-align: center;
-  color: white;
+  color: black;
   font-size: 2.3rem;
+  -webkit-text-decoration: black underline;
+          text-decoration: black underline;
+}
+
+.Jobs {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Work {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.workIMG {
+  margin-top: 2rem;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 30px;
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  padding: 0.1rem;
+}
+
+.Break {
+  margin-top: 2rem;
+  width: 100%;
+  height: 0.5rem;
+  background-color: black;
+  border: white 2px solid;
+}
+
+.Education {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+}
+
+.School {
+  text-align: center;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.me1 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 30px;
+  box-shadow: black 2px 2px 2px 2px;
+}
+
+.me2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 37rem;
+  width: 30rem;
+  border-radius: 30px;
+  box-shadow: black 2px 2px 2px 2px;
+}
+
+.me3 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 30px;
+  box-shadow: black 2px 2px 2px 2px;
+}
+
+.pics {
+  text-align: center;
 }
 
 .banner {
@@ -220,8 +298,6 @@ a {
   width: 90%;
   height: 5rem;
   background-color: transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -234,15 +310,50 @@ a {
 .list {
   margin-left: auto;
   width: 40%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .navHead {
   color: white;
   font-size: 2.5rem;
 }
-/*# sourceMappingURL=index.css.map */
+
+.footer {
+  margin-top: 3rem;
+  width: 100%;
+  height: 12rem;
+  background-color: #272727;
+  border-top: white 5px groove;
+}
+
+.InfoHold {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shortP {
+  width: 30%;
+}
+
+.footStuff {
+  text-align: center;
+  margin-top: 0.5rem;
+  width: 40%;
+  color: white;
+}
+
+.travel {
+  color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.About {
+  width: 100%;
+  color: white;
+  margin-top: 0.5rem;
+  margin-right: 0;
+}/*# sourceMappingURL=index.css.map */

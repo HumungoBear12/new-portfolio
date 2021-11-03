@@ -1,6 +1,75 @@
-.headSecOne{
-    margin-top: 2rem;
-    text-align: center;
-    color: white;
-    font-size: 2.3rem;
+.headSecOne {
+  margin-top: 2rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 2.3rem;
+  text-decoration: black underline;
+}
+.Jobs {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.Work {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.workIMG {
+  margin-top: 2rem;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 30px;
+  box-shadow: inset $dark-shadow, $dark-shadow;
+  padding: 0.1rem;
+}
+.Break {
+  margin-top: 2rem;
+  width: 100%;
+  height: 0.5rem;
+  background-color: black;
+  border: white 2px solid;
+}
+.Education {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+}
+.School {
+  text-align: center;
+}
+.pictures {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.me1 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 30px;
+  box-shadow: black 2px 2px 2px 2px;
+}
+.me2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 37rem;
+  width: 30rem;
+  border-radius: 30px;
+  box-shadow: black 2px 2px 2px 2px;
+}
+.me3 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 30px;
+  box-shadow: black 2px 2px 2px 2px;
+}
+.pics {
+  text-align: center;
 }
