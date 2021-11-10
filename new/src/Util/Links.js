@@ -1,5 +1,5 @@
 import About from '../Pages/About'
-import Goals from '../Pages/Goals&Skills'
+import Goals from '../Pages/Goals'
 import Home from '../Pages/Home'
 import Gallery from '../Pages/Gallery'
 export const Links = [

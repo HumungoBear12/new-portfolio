@@ -28,7 +28,7 @@ const App = () => {
                 </Route>
                 );
             })}
-        </Switch>
+            </Switch>
             <Footer/>
         </div>
     )

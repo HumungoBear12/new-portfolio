@@ -1,0 +1,19 @@
+.card {
+  padding: 0.5rem;
+  width: 30rem;
+  height: 20rem;
+  box-shadow: inset $dark-shadow, $dark-shadow;
+  margin-top: 2rem;
+  background-color: hsl(0, 0%, 17%);
+  border-radius: $radius;
+}
+.cardHead {
+  text-align: center;
+  color: white;
+}
+.cardInfo {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+}

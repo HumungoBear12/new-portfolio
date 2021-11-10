@@ -1,4 +1,6 @@
 import React from 'react'
+import Links from '../Util/Links'
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -15,9 +17,18 @@ const Footer = () => {
                 <div>
                     <h3 className='footStuff'>Navigation</h3>
                     <ul>
-                        <li className='travel'>Home</li>
-                        <li className='travel'>Football</li>
-                        <li className='travel'>Betting</li>
+                        <ul className='list1'>
+                            {Links
+                        .filter((link) => link.text !== "Error")
+                        .map((link) => {
+                            const { url, id, text } = link;
+                            return (
+                            <li className='itemholder1' key={id}>
+                                <Link to={url}><p className='listItem2'>{text}</p></Link>
+                            </li>
+                            );
+                        })}
+                        </ul>
                     </ul>
                 </div>
                 <div>
@@ -29,8 +40,8 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='shortP'>
-                    <h3 className='footStuff'>About</h3>
-                    <p className='About'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium blanditiis neque dignissimos sunt, reprehenderit aliquam expedita minima nemo accusantium nostrum velit maxime repudiandae dolorem quos architecto molestiae, iure nulla amet.</p>
+                    <h3 className='footStuff'>About Me</h3>
+                    <p className='About'>My name is Andrew Makris and I am 18 and currently live in Phoenix Arizona. I just graduated this past year from Sandra Day O'Conner and now I am currently attending Glendale Community College to get my pre-requisites done for as cheap as possible. I am also in the West-Mec Coding program and I have been for the past year. I have enjoyed this class a lot and would like to go into a career path that involves coding</p>
                 </div>
             </div>
         </div>
