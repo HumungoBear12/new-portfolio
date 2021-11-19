@@ -15,9 +15,9 @@ const About = () => {
             <div>
                 <h1 className='headSecOne'>Pictures of Me</h1>
                 <div className='pictures'>
-                    <img className='me1' src="https://pbs.twimg.com/profile_images/1456007156189237257/HlMvbuAm_400x400.jpg" alt="" />
-                    <img className='me2' src="https://pbs.twimg.com/profile_images/1456006341776924677/addqFKwi_400x400.jpg" alt="" />
-                    <img className='me3' src="https://pbs.twimg.com/profile_images/1456007527297167368/BlmX5Pbb_400x400.jpg" alt="" />
+                    <img className='me1' src="" alt="" />
+                    <img className='me2' src="" alt="" />
+                    <img className='me3' src="file:///C:/Users/amakri386/Downloads/justForPics/IMG_3044.jpg" alt="" />
                 </div>
             </div>
         </div>

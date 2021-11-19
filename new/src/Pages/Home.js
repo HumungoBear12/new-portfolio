@@ -16,7 +16,7 @@ const Home = () => {
                 <h1 className='headSecOne'>Current Academic Achievements</h1>
                 <ul className='Education'>
                     <li className='School'>Highschool Graduate, Earned Diploma 2017-2021 <br /> Sandra Day O'conner Highshcool <br /><img className='workIMG' src="https://www.dvusd.org//cms/lib/AZ01901092/Centricity/Domain/43/Eagle%20Logo.jpg" alt="" /></li>
-                    <li className='School'>Currently Attending in West Mec Coding Program 2020 - present <br /> West-Mec Northeast Campus <br />  <img className='workIMG' src="https://image.slidesharecdn.com/west-mecpresentation-150710233801-lva1-app6891/95/westmec-presentation-1-638.jpg?cb=1436571600" alt="" /></li>
+                    <li className='School'>Currently Attending The West Mec Coding Program 2020 - present <br /> West-Mec Northeast Campus <br />  <img className='workIMG' src="https://image.slidesharecdn.com/west-mecpresentation-150710233801-lva1-app6891/95/westmec-presentation-1-638.jpg?cb=1436571600" alt="" /></li>
                     <li className='School'>Currently Enrolled in Community College 2021-Present <br />Glendale Community College North Campus <br /><img className='workIMG' src="https://upload.wikimedia.org/wikipedia/en/d/dc/GCC_New_Logo.png" alt="" /></li>
                 </ul>
             </div>

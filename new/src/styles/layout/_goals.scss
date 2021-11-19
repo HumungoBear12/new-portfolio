@@ -1,8 +1,18 @@
 .personal {
+  font-size: 3rem;
   text-align: center;
+  border-bottom: 8px white groove;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .career {
+  font-size: 3rem;
   text-align: center;
+  border-bottom: 8px white groove;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .goalOne {
   display: flex;
@@ -11,7 +21,7 @@
   margin-right: auto;
   margin-left: auto;
 }
-.personalCard{
+.personalCard {
   position: relative;
   left: 32.5rem;
 }

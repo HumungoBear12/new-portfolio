@@ -23,15 +23,13 @@ summary {
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 img,
@@ -53,7 +51,6 @@ blockquote,
 q {
   quotes: none;
 }
-
 blockquote::before, blockquote::after,
 q::before,
 q::after {
@@ -102,19 +99,19 @@ pre {
   word-wrap: break-word;
 }
 
-input [type="radio"] {
+input [type=radio] {
   vertical-align: text-bottom;
 }
 
-input [type="checkbox"] {
+input [type=checkbox] {
   vertical-align: bottom;
 }
 
-.ie7 input [type="checkbox"] {
+.ie7 input [type=checkbox] {
   vertical-align: baseline;
 }
 
-.ie6 input[type="checkbox"] {
+.ie6 input[type=checkbox] {
   vertical-align: text-bottom;
 }
 
@@ -149,15 +146,15 @@ sub {
 
 .clickable,
 label,
-input[type="button"],
-input[type="submit"],
-input[type="file"],
+input[type=button],
+input[type=submit],
+input[type=file],
 button {
   cursor: pointer;
 }
 
 button,
-input[type="button"] {
+input[type=button] {
   width: auto;
   overflow: hidden;
 }
@@ -212,13 +209,9 @@ a {
 
 .Jobs {
   margin-top: 4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .Work {
@@ -231,8 +224,7 @@ a {
   width: 12rem;
   height: 12rem;
   border-radius: 30px;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
   padding: 0.1rem;
 }
 
@@ -247,13 +239,9 @@ a {
 .Education {
   width: 100%;
   margin-top: 4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
   font-size: 1.2rem;
 }
 
@@ -262,13 +250,9 @@ a {
 }
 
 .pictures {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .me1 {
@@ -277,8 +261,7 @@ a {
   height: 30rem;
   width: 30rem;
   border-radius: 30px;
-  -webkit-box-shadow: black 2px 2px 2px 2px;
-          box-shadow: black 2px 2px 2px 2px;
+  box-shadow: black 2px 2px 2px 2px;
 }
 
 .me2 {
@@ -287,8 +270,7 @@ a {
   height: 37rem;
   width: 30rem;
   border-radius: 30px;
-  -webkit-box-shadow: black 2px 2px 2px 2px;
-          box-shadow: black 2px 2px 2px 2px;
+  box-shadow: black 2px 2px 2px 2px;
 }
 
 .me3 {
@@ -297,8 +279,7 @@ a {
   height: 30rem;
   width: 30rem;
   border-radius: 30px;
-  -webkit-box-shadow: black 2px 2px 2px 2px;
-          box-shadow: black 2px 2px 2px 2px;
+  box-shadow: black 2px 2px 2px 2px;
 }
 
 .pics {
@@ -306,13 +287,9 @@ a {
 }
 
 .holder {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .galHead {
@@ -330,13 +307,9 @@ a {
 
 .infoHold {
   width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
 }
@@ -347,19 +320,26 @@ a {
 }
 
 .personal {
+  font-size: 3rem;
   text-align: center;
+  border-bottom: 8px white groove;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .career {
+  font-size: 3rem;
   text-align: center;
+  border-bottom: 8px white groove;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .goalOne {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
@@ -391,8 +371,6 @@ a {
   width: 90%;
   height: 5rem;
   background-color: transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -405,11 +383,8 @@ a {
 .list {
   margin-left: auto;
   width: 40%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .navHead {
@@ -428,12 +403,8 @@ a {
 .InfoHold {
   margin-top: 1rem;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .shortP {
@@ -469,8 +440,7 @@ a {
   padding: 0.5rem;
   width: 30rem;
   height: 20rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
   margin-top: 2rem;
   background-color: #2b2b2b;
   border-radius: 0.75rem;
@@ -485,6 +455,5 @@ a {
   margin-top: 0.5rem;
   text-align: center;
   color: white;
-  font-size: 1.3rem;
-}
-/*# sourceMappingURL=index.css.map */
+  font-size: 1.15rem;
+}/*# sourceMappingURL=index.css.map */
