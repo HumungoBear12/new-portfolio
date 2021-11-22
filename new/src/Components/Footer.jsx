@@ -40,8 +40,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='shortP'>
-                    <h3 className='footStuff'>About Me</h3>
-                    <p className='About'>My name is Andrew Makris and I am 18 and currently live in Phoenix Arizona. I just graduated this past year from Sandra Day O'Conner and now I am currently attending Glendale Community College to get my pre-requisites done for as cheap as possible. I am also in the West-Mec Coding program and I have been for the past year. I have enjoyed this class a lot and would like to go into a career path that involves coding</p>
+                    <img className='About' src="https://www.freepnglogos.com/uploads/batman-logo-png-picture-6.png" alt="" />
                 </div>
             </div>
         </div>

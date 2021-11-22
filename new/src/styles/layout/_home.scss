@@ -1,9 +1,9 @@
 .headSecOne {
   margin-top: 2rem;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: white;
   font-size: 2.3rem;
-  text-decoration: black underline;
+  font-weight: bold;
 }
 .Jobs {
   margin-top: 4rem;
@@ -12,6 +12,7 @@
   flex-wrap: wrap;
 }
 .Work {
+  color: white;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -20,7 +21,7 @@
   width: 12rem;
   height: 12rem;
   border-radius: 30px;
-  box-shadow: inset $dark-shadow, $dark-shadow;
+  box-shadow: rgb(58, 58, 58) 1px 1px 1px 1px;
   padding: 0.1rem;
 }
 .Break {
@@ -28,7 +29,7 @@
   width: 100%;
   height: 0.5rem;
   background-color: black;
-  border: white 2px solid;
+  border: $purple-color 2px solid;
 }
 .Education {
   width: 100%;
@@ -39,6 +40,7 @@
   font-size: 1.2rem;
 }
 .School {
+  color: white;
   text-align: center;
 }
 .pictures {
