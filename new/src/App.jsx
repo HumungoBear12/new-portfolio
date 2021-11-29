@@ -1,16 +1,37 @@
-import React from 'react'
+import {React,useState,useEffect} from 'react'
 import './styles/index.css'
 import Home from './Pages/Home'
 import Banner from './Components/Banner'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer' 
+import Error from './Components/Error'
+import Load from './Components/Load'
 import {
   Switch,
   Route,
 } from "react-router-dom";
 import Links from './Util/Links' 
 const App = () => {
+    const [isLoading,setIsLoading] = useState(true)
+    const [isError, setIsError] = useState(false)
+    const [isPage,setIsPage] = useState(Links)
+    useEffect(()=>{
+    setTimeout(() => {
+        setIsLoading()
+    }, 1500);
+    },[])
+    if (isLoading) {
     return (
+        <Load/>
+    );
+    }
+    if(isError){
+        return(
+            <Error/>
+        )
+    }
+    if(isPage){
+         return (
         <div>
             <Navbar/>
             <Banner/>
@@ -32,6 +53,10 @@ const App = () => {
             <Footer/>
         </div>
     )
+    }
+        
+    
+   
 }
 
 export default App

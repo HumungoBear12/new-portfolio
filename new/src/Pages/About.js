@@ -15,9 +15,9 @@ const About = () => {
             <div>
                 <h1 className='headSecOne'>Pictures of Me</h1>
                 <div className='pictures'>
-                    <img className='me1' src="" alt="" />
+                    <img className='me1' src='' alt="" />
                     <img className='me2' src="" alt="" />
-                    <img className='me3' src="file:///C:/Users/amakri386/Downloads/justForPics/IMG_3044.jpg" alt="" />
+                    <img className='me3' src="" alt="" />
                 </div>
             </div>
         </div>

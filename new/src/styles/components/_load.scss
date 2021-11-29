@@ -1,0 +1,54 @@
+.loader {
+  border: 5px white groove;
+  margin-left: auto;
+  margin-right: auto;
+  height: 47rem;
+  width: 100%;
+  background-image: url("https://64.media.tumblr.com/a4feab634dba8c8818c21f3d8596d2e1/tumblr_opc1fuobRw1vhmslwo1_500.gifv");
+}
+#body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.progress {
+  background-color: rgb(0, 0, 0);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 40px;
+  width: 500px;
+}
+
+.progress-value {
+  animation: load 3s normal forwards;
+  box-shadow: 0 10px 40px 0px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+.loadhead {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  color: white;
+}
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}

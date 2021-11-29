@@ -10,13 +10,13 @@ const Gallery = () => {
             <div className='holder'>
                 <a href=""><Card header='Website One' info='Lorem24'/></a>
                 <a href=""><Card header='Website Two' info='Lorem24'/></a>
-                <Card header='Website Three' info='Lorem24'/>
-                <Card header='Website Four' info='Lorem24'/>
-                <Card header='Website Five' info='Lorem24'/>
-                <Card header='Website Six' info='Lorem24'/>
-                <Card header='Website Seven' info='Lorem24'/>
-                <Card header='Website Eight' info='Lorem24'/>
-                <Card header='Website Nine' info='Lorem24'/>
+                <a href=""><Card header='Website One' info='Lorem24'/></a>
+                <a href=""><Card header='Website Two' info='Lorem24'/></a>
+                <a href=""><Card header='Website One' info='Lorem24'/></a>
+                <a href=""><Card header='Website Two' info='Lorem24'/></a>
+                <a href=""><Card header='Website One' info='Lorem24'/></a>
+                <a href=""><Card header='Website Two' info='Lorem24'/></a>
+                <a href=""><Card header='Website One' info='Lorem24'/></a>
             </div>
         </div>
     )
