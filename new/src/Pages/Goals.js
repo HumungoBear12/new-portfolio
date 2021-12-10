@@ -1,9 +1,13 @@
 import React from 'react'
 import Card from '../Components/InfoCard'
+import { Helmet } from 'react-helmet';
 //Also includes Skills
 const Goals = () => {
     return (
         <div>
+            <Helmet>
+                <title>Goals & Skills </title>
+            </Helmet>
             <h1 className='career'>Career</h1>
            <div className='goalOne'>
                 <Card header='Career Goals' info='The goals I have for myself to be successful in my future career path are very simple, but if not achieved I will not be where I want to be. My first goal is to practice everyweek day on what it is Im currently working on. My second goal is to never fall behind in my school or work. Lastly my third goal is to always have side projects going to keep my mind fresh and improving.'/>

@@ -1,9 +1,13 @@
 import React from 'react'
+import { Helmet } from 'react-helmet';
 import Card from '../Components/InfoCard'
 
 const About = () => {
     return (
         <div>
+            <Helmet>
+                <title>About Page</title>
+            </Helmet>
             <div>
                 <h1 className='aboutHead'>About Me</h1>
                 <div className='infoHold'>

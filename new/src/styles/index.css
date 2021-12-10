@@ -393,6 +393,17 @@ div {
   text-decoration: none;
 }
 
+.listItem:hover {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: transparent;
+  color: white;
+  height: 3rem;
+  width: 7rem;
+  border-radius: 0.75rem;
+  box-shadow: 1px 1px 1px 1px white;
+}
+
 .list {
   margin-left: auto;
   width: 40%;
