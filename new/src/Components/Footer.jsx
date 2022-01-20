@@ -1,6 +1,7 @@
 import React from 'react'
 import Links from '../Util/Links'
 import {Link} from 'react-router-dom'
+import Logo from '../images/logo_size.jpg'
 
 const Footer = () => {
     return (
@@ -40,7 +41,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='shortP'>
-                    <img className='About' src="https://www.freepnglogos.com/uploads/batman-logo-png-picture-6.png" alt="" />
+                        <h1 className="short">Andrew Makris's <br />Portfolio</h1>
                 </div>
             </div>
         </div>

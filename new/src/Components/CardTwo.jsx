@@ -1,13 +1,12 @@
 import React from 'react'
 
-const InfoCard = ({header,info,Image}) => {
+const CardTwo = ({header,info}) => {
     return (
-        <div className='card'>
-            <img className='cardIMG' src={Image} alt="" />
+        <div className='card2'>
             <h1 className='cardHead'>{header}</h1>
             <p className='cardInfo'>{info}</p>
         </div>
     )
 }
 
-export default InfoCard
+export default CardTwo

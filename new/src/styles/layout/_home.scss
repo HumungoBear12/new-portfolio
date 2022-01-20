@@ -24,13 +24,52 @@
   box-shadow: rgb(58, 58, 58) 1px 1px 1px 1px;
   padding: 0.1rem;
 }
-.Break {
-  margin-top: 2rem;
-  width: 100%;
-  height: 0.5rem;
-  background-color: black;
-  border: $purple-color 2px solid;
+#body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-top: 1.5rem;
 }
+
+.progress {
+  background: rgba(0, 0, 0, 0.185);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 40px;
+  width: 90rem;
+}
+
+.progress-value {
+  animation: load 15s normal forwards infinite;
+  box-shadow: 0 5px 20px 0px #fff;
+  border-radius: 100px;
+  background: rgb(0, 0, 0);
+  height: 30px;
+  width: 100%;
+}
+
+.loadhead {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 .Education {
   width: 100%;
   margin-top: 4rem;
@@ -74,4 +113,20 @@
 }
 .pics {
   text-align: center;
+}
+.resume {
+  width: 60%;
+  height: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 1rem;
+  // border: rgb(102, 0, 197) 10px groove;
+  box-shadow: rgb(132, 0, 255) 2px 2px 2px 2px;
+}
+.ResHead {
+  margin-top: 1rem;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 3rem;
 }
