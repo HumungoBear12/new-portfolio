@@ -27,3 +27,13 @@
   position: relative;
   left: 32.5rem;
 }
+.rockVideo {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+iframe {
+  box-shadow: rgb(78, 78, 78) 1px 1px 1px 1px;
+  border-radius: 0.5rem;
+}

@@ -1,11 +1,11 @@
 import React from 'react'
 import Links from '../Util/Links'
 import {Link} from 'react-router-dom'
+import Logo from '../images/logo.png'
 
 const Navbar = () => {
     return (
         <div className='nav'>
-            <h1 className='navHead'>Andrew Makris Portfolio</h1>
             <ul className='list'>
                 {Links
               .filter((link) => link.text !== "Error")
