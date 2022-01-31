@@ -4,12 +4,24 @@
   border-bottom: 3px $purple-color groove;
 }
 .title {
-  font-size: 7rem;
+  font-size: 2rem;
   color: white;
   text-align: center;
   position: absolute;
-  bottom: 20rem;
-  left: 25rem;
+  bottom: 43rem;
+  left: 3rem;
+}
+.bannerWord {
+  font-size: 9rem;
+  text-align: center;
+  color: white;
+}
+.bannerName {
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  position: absolute;
+  top: 30rem;
 }
 // .hidden {
 //   color: white;
@@ -23,3 +35,15 @@
 //   .hidden {
 //   }
 // }
+.myself {
+  position: absolute;
+  bottom: 20rem;
+  right: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: BLOCK;
+  width: 40rem;
+  height: 20rem;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 1px white;
+}
