@@ -20,7 +20,7 @@ const Banner = () => {
             <div className='bannerName'>
                 <h1 className='bannerWord'>Andrew Markis</h1>
             </div>
-            <img className="myself" src={myself} alt="" />
+            {/* <img className="myself" src={myself} alt="" /> */}
         </div>
     )
 }

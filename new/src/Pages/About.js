@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet';
 import CardTwo from '../Components/CardTwo';
 // import Card from '../Components/InfoCard'
-import Colts from '../images/Colts.JPG'
+import Colts from '../images/Boyz.jpg'
 import Halloween from '../images/Halloween.JPG'
 import Mirror from '../images/Mirror.JPG'
 
